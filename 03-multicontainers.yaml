@@ -1,7 +1,6 @@
 kind: pod
 apiVersion: v1
 metadata: 
-  namespace: expense
   name: multi-containers
 spec:
   containers:
