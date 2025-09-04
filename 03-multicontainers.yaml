@@ -8,4 +8,4 @@ spec:
     image: nginx
   - name: almalinux
     image: almalinux:9
-    command: ["almalinux", "-g", "daemon off;"]
+    command: ["sleep "1000"]
