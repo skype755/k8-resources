@@ -9,5 +9,5 @@ spec:
     env:
     - name: course
       value: "devops"
-    - name: Trainer
+    - name: trainer
       value: "sai"
