@@ -14,6 +14,7 @@ metadata:
         app: nginx  
         tier: frontend
         purpose: deployment
+        namespace: expense
     template:
       metadata:
         labels:
