@@ -24,7 +24,7 @@ spec:
       spec:
         containers:
         - name: nginx
-          image: saimaddala/deployment:1.0
+          image: saimaddala/deployment:2.0
           ports:
           - containerPort: 80
 ---
