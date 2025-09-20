@@ -10,8 +10,8 @@ spec:
     # soft liit
     requests:
       memory: "68Mi"
-      cpu: "250m"
-      # hard limit
+      cpu: "100m"
+      # hard
     limits:
-      requests: "128Mi"
-      cpu: "500m"
+      requests: ""
+      cpu:
