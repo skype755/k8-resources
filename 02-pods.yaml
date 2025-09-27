@@ -12,10 +12,11 @@ spec:
     image: nginx
   - name: almalinux
     image: almalinux:9
+    command: ["sleep", "1000000"]
     livenessProbe:
           httpGet:
             path: /
             port: 80
           initialDelaySeconds: 5
-          periodSeconds: 10
+          periodSeconds: 1
     
