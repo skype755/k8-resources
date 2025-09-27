@@ -8,14 +8,14 @@ metadata:
     component: frontend
 spec:
   containers:
-      livenessProbe:
+  - name: nginx
+      image: nginx
+    livenessProbe:
           httpGet:
             path: /
             port: 80
           initialDelaySeconds: 5
           periodSeconds: 10
-- name: nginx
-   image: nginx
-- name: almalinux
-  image: almalinux:9
+  - name: almalinux
+      image: almalinux:9
     
