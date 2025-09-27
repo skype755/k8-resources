@@ -17,5 +17,5 @@ spec:
           initialDelaySeconds: 5
           periodSeconds: 10
   - name: almalinux
-      image: almalinux:9
+    image: almalinux:9
     
